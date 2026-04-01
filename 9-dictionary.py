@@ -48,5 +48,65 @@ print( user.get('age') ) # 👉 .get() is safer (no error if key missing)
 
 
 
+print("\n --------- Exmple-3 : Adding Values -------------- \n ")
+user = {
+    "name" : "Mahendra"
+}
+user["age"] = 25  # Add value
+
+print(user)
+
+
+print("\n --------- Exmple-4 : Updating Values -------------- \n ")
+user = {
+    "name" : "Mahendra",
+    "age"  : 25
+}
+
+user["name"] = "Bajpai"
+
+print(user)
+
+
+
+
+
+print("\n --------- Exmple-5 : Delete Values -------------- \n ")
+user = {
+    "name" : "Mahendra",
+    "age"  : 25
+}
+del user["age"]
+print(user)
+
+
+print("\n --------- Exmple-6 : Loop Through Dictionary -------------- \n ")
+user = {
+    "name" : "Mahendra",
+    "age"  : 25
+}
+
+for key, value in user.items():
+    print(key, value)
+
+
+
+print("\n --------- Exmple-7 : Loop Through Dictionary -------------- \n ")
+marks = {
+    "maths" : 80,
+    "science" : 90,
+    "english" : 85 
+}
+total = 0
+for key_subject, value_scroe in marks.items():
+    total += value_scroe
+
+print( "Total : ", total )
+
+
+
+
+
+
 
 
