@@ -5,7 +5,19 @@
 #   Python → no $ 
 #   PHP → must use $    
 # Both languages are dynamically typed.
-###########################################################
+#
+########################## QnA #########################################################
+# Q-1   What is an f-string?
+#       f-string = formatted string
+#       It is a way to insert variables directly inside a string using {}
+#       print(f"My name is {name} and I am {age}")
+# Q-2   Why is it called "f-string"?
+#       Because we write f before the string:
+#       f"..."
+#       The f tells Python: "Hey, this string contains variables → replace {} with values"
+#
+#########################################################################################
+
 # EXAMPLE-1 variable assignment and print
 # # no var, no $, no type
 
@@ -80,15 +92,7 @@ total = price*quantity
 print("Total : ", total)
 
 
-###### QnA ############################################################################
-# Q-1   What is an f-string?
-#       f-string = formatted string
-#       It is a way to insert variables directly inside a string using {}
-#       print(f"My name is {name} and I am {age}")
-# Q-2   Why is it called "f-string"?
-#       Because we write f before the string:
-#       f"..."
-#       The f tells Python: "Hey, this string contains variables → replace {} with values"
+
 
 
 

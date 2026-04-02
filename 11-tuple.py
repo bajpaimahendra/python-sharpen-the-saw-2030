@@ -28,6 +28,9 @@
 #            | `[]`    | `()`      |
 #            | Slower  | Faster    |
 #             ---------------------
+#    can we remove element from tuple ?
+#        No, because they are immutable (unchangeable).
+#        To to do this Convert to a List, remove() item, convert to tuple(temp_list)
 #
 #
 ########################################################################

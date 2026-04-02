@@ -56,6 +56,11 @@ person_dict = {"name": "Mahendra", "age": 30}
 print("person_dict : ", person_dict)
 
 
+emails = {"abc@gmail.com", "cde@gmail.com", "abc@gmail.com"}
+print(emails) # {'cde@gmail.com', 'abc@gmail.com'} 'set' removes duplicates only if values are exactly same
+
+
+
 # print("\n -------Example-1 : Access Elements from a Set ------------- \n")
 # fruits_set = {"apple", "banana", "apple", "mango"}
 # print(fruits_set[0])   # ❌ Error 'set' is unordered, so you cannot access elements by index
@@ -114,6 +119,15 @@ print(intersection_set)     # Intersection → {3}, PHP : array_intersect()
 difference_set = a-b
 print(difference_set)   # Difference → {1,2}, PHP : array_diff(), present in set 'a' but not in set 'b'
 
+
+
+
+print("\n -------Example-7 : Real-Life Example , Remove duplicate emails from list ------------- \n") 
+emails_list = ['abc@gmail.com', "cde@gmail.com", "abc@gmail.com"]
+print('emails_list : ', emails_list)
+
+unique_emails_set = set(emails_list)
+print("unique_emails_set : ", unique_emails_set)
 
 
 
