@@ -1,6 +1,21 @@
 ### ######### Topics ####################
 https://chatgpt.com/g/g-p-69c6734c95d081918b05c8e85d2449c5-python/c/69ca1ba4-b09c-83a7-a346-8247438f0454
 
+
+#### 🔥 Best Learning Path (for you)
+		- map()    				(--done--)
+		- filter() 				(--done--)
+		- sorted() 				(--WIP--)
+		- lambda
+		- map() with lambda
+		- filter() with lambda
+		- map + filter
+		- examples using filter() (very important)
+		- map() vs filter() side by side with Python and PHPs
+		- list comprehension (most used in Python)
+		- How decorators work
+
+
 ### built in function 
 	enumerate(), range()
 
@@ -103,7 +118,13 @@ https://chatgpt.com/g/g-p-69c6734c95d081918b05c8e85d2449c5-python/c/69ca1ba4-b09
 		Fetch tickets from DB
 		Calculate SLA
 		Send email alerts
-		Export CSV		
+		Export CSV	
+
+
+
+
+
+
 
 
 ### ####################################
